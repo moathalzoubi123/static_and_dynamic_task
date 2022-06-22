@@ -29,4 +29,4 @@ class CardGame:
    total = 0
    for card in self.cards:
        total += card.value
-   return total  
+   return "You have a total of " + str(total)  

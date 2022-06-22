@@ -19,5 +19,5 @@ class TestCardGame(unittest.TestCase):
 
 
     def test_cards_total(self):
-        self.assertEqual(5 , self.cardgame.cards_total(self.cardgame))      
+        self.assertEqual("You have a total of 5" , self.cardgame.cards_total(self.cardgame))      
 

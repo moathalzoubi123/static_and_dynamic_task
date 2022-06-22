@@ -18,13 +18,13 @@ class CardGame:     # the class should have atributes
 
 
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value = 1:  # it should be == instaed of = 
       return True
-    else
+    else                # else : 
       return False
    
 
-  dif highest_card(self, card1 card2):     # def not dif 
+  dif highest_card(self, card1 card2):     # def not dif  and a comma between card1 and card2 
   if card1.value > card2.value:
     return card
   else:
@@ -32,10 +32,10 @@ class CardGame:     # the class should have atributes
   
 
 
-def cards_total(self, cards):    
+def cards_total(self, cards):    # it should be aline with the functions  
   total
   for card in cards:        # self.cards not cards
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total     # cant concatenate int with string  and return should be aline with for 
   
 ```
